@@ -1,2 +1,2 @@
 require './hubopic'
-run Sinatra::Application
+run Hubopic
