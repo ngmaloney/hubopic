@@ -2,6 +2,7 @@ require 'sinatra/base'
 require 'sinatra/reloader'
 require 'sinatra/contrib'
 require 'json'
+require 'haml'
 require_relative 'lib/album'
 
 class Hubopic < Sinatra::Application
