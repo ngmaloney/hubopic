@@ -28,7 +28,7 @@ class Hubopic < Sinatra::Application
   get "/" do
     @albums = Album.list
      respond_to do |format|
-       # JSON requires http header of application-json
+       # JSON requires http accept header of application/json
        format.json { {albums: @albums}.to_json }
        format.html { haml :index }
      end
@@ -59,6 +59,5 @@ class Hubopic < Sinatra::Application
       format.html { @photos.join(",") }
     end
   end
-
 end
 
