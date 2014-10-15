@@ -45,4 +45,4 @@ It follows the "pugbomb" command conventions.
 Adding Images
 -------------
 Create a folder in public/images and issue a pull request. Actively seeking
-image albums of puppies, kittens and yummy food.
+image albums of puppies, kittens and yummy food. Please use the md5 sum of the image as its name.
