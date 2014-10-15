@@ -1,0 +1,6 @@
+{
+  "name": "Hubopic",
+  "description": "A static image hosting API for serving hubot images.",
+  "repository": "https://github.com/ngmaloney/hubopic",
+  "keywords": ["sinatra", "ruby", "hubot", "image", "api"]
+}
